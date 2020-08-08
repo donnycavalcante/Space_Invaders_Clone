@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Space Invaders</title>
+        <title>Space Invaders (Clone)</title>
         <link rel="stylesheet" type="text/css" href="css/core.css">
         <link rel="stylesheet" type="text/css" href="css/typeography.css">
+        <link rel="icon" type="image/png" href="favicon.png">
         <style>
 
             /* Styling needed for a fullscreen canvas and no scrollbars. */
@@ -40,13 +41,14 @@
         </style>
     </head>
     <body>
+        <img src="favicon.png" alt="logo">
         <div id="starfield"></div>
         <div id="gamecontainer">
         <canvas id="gameCanvas"></canvas>
         </div>
         <div id="info">
             <p>Move with arrow keys or swipe, fire with the space bar or touch. The invaders get faster and drop
-                more bombs as you complete each level!</p>            
+                more bombs as you complete each level!</p>
         </div>
 
         <script src="js/starfield.js"></script>
