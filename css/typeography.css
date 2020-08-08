@@ -5,6 +5,10 @@ body {
 	color: #333333;
 }
 
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+
 .logo {
   height: 70px;
   width: 70px;
