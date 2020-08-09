@@ -21,14 +21,3 @@ a:focus {
   color: #005580;
   text-decoration: underline;
 }
-
-/* Media Query: Large Smartphone Vertical */
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  .image-container {
-    margin: 10px;
-  }
-}
